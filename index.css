@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  width: 500px;
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid #ccc;
+}
+
+legend{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#addr-show {
+  width: 200px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #aaa;
+  margin: 0 20px;
+}
+
+.btn:disabled{
+  background-color:#ccc;
+}
+
+select {
+  width: 120px;
+  height: 30px;
+}
+
+select#city {
+  display: none;
+}
+
+select#country {
+  display: none;
+}
